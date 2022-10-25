@@ -16,6 +16,7 @@ class RecipeModel: ObservableObject {
     //instance of data service
         let service = DataService();
         self.recipes =  service.getLocalData()
+        
     }
     
     
